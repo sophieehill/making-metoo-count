@@ -1,0 +1,116 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Making #MeToo Count"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Making #MeToo Count"
+
+		[params.navigation.links]
+			about     = "About"
+			event = "Event"
+			services  = "Panellists"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Making #MeToo Count"
+		subtitle   = " "
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "About"
+		description = "In 2018, over a dozen women came forward and spoke to The Chronicle of Higher Education about their experiences of sexual harassment by Jorge I. Domínguez — then a professor in Harvard’s Government department."
+		# description2 = "The Domínguez case sparked a national conversation about sexual harassment in academia. Students, staff, alumni, and faculty in the Harvard Government Department [called on the University](https://www.thecrimson.com/article/2019/2/28/dominguez-external-review/) to commission an external review into the institutional failures revealed by the Domínguez case."
+		# description3 = "Just two months after the Chronicle article came out, Harvard’s graduate students voted to unionize. In the wake of the reporting on the Domínguez case, student workers across campus came together to [demand stronger protections against harassment and discrimination](http://harvardgradunion.org/members/nocarveout/)."
+		buttonText  = "Read the Story"
+		buttonLink = "https://www.chronicle.com/interactives/harvard-harassment"
+
+  # Event section
+	[params.event]
+	heading = "Event"
+		headline = "Making #MeToo Count:"
+		subline = "Achieving Institutional Change at Harvard"
+		description = "A panel discussion on turning Harvard's #MeToo problem into lasting institutional change."
+		[params.event.button]
+		text = "Link to Facebook event page"
+		link = "facebook.com/events/482521759103893/"
+		
+
+
+	# Service section
+	[params.services]
+		headline = "Panellists"
+
+      [[params.services.list]]
+          icon = "img/photos/tk.jpg"
+          title = "Terry Karl"
+          description = "Our templates are updated regularly so they don't break."
+
+      [[params.services.list]]
+			icon = "img/photos/p15.jpg"
+			title = "Debra Katz"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "img/photos/charna.jpg"
+            title = "Charna Sherman"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "img/photos/suzanna.jpeg"
+            title = "Suzanna Challen"
+
+             [[params.services.list]]
+            icon = "img/photos/nienke.jpg"
+            title = "Nienke Grossman"
+
+             [[params.services.list]]
+            icon = "img/photos/sejal.jpg"
+            title = "Sejal Singh"
+
+
+
+
+
+	# Contact section
+	[params.contact]
+		headline = "Get In Touch"
+		description = "If you would like to contact the event organizers, please send us an email at:"
+		# phone = "123-456-6789"
+		email = "makingmetoocount@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

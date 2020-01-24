@@ -1,0 +1,32 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.about.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+              
+                {{ if and .Site.Params.about.headline .Site.Params.about.description }}
+                    <hr class="light">
+                {{ end }}
+                 {{ with .Site.Params.about.description }}
+                    <p class="text">{{ . | markdownify }}</p>
+                {{ end }}
+                <p></p>
+               <img src="img/tk1.png" width=400px>
+                <p></p>
+                 {{ with .Site.Params.about.description2 }}
+                    <p class="text">{{ . | markdownify }}</p>
+                {{ end }}
+                <p></p>
+                 {{ with .Site.Params.about.description3 }}
+                    <p class="text">{{ . | markdownify }}</p>
+                {{ end }}
+                  {{ if and .Site.Params.about.buttonText .Site.Params.about.buttonLink }}
+                    <a href="{{ .Site.Params.about.buttonLink }}" class="btn btn-default btn-xl">{{ .Site.Params.about.buttonText }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
