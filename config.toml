@@ -50,14 +50,14 @@ googleAnalytics = ""
 	[params.about]
 		headline    = "Harvard's #MeToo Moment"
 		description = "In 2018, over a dozen women came forward and spoke to The Chronicle of Higher Education about their experiences of sexual harassment by Jorge I. Domínguez — then a professor in Harvard’s Government department."
-		# description2 = "The Domínguez case sparked a national conversation about sexual harassment in academia. Students, staff, alumni, and faculty in the Harvard Government Department [called on the University](https://www.thecrimson.com/article/2019/2/28/dominguez-external-review/) to commission an external review into the institutional failures revealed by the Domínguez case."
+		# description2 = "The Domínguez case sparked a national conversation about sexual harassment in academia. Students, staff, alumni, and faculty in the Harvard Government Department [called on the University](https://www.thecrimson.com/article/2019/2/28/Domínguez-external-review/) to commission an external review into the institutional failures revealed by the Domínguez case."
 		# description3 = "Just two months after the Chronicle article came out, Harvard’s graduate students voted to unionize. In the wake of the reporting on the Domínguez case, student workers across campus came together to [demand stronger protections against harassment and discrimination](http://harvardgradunion.org/members/nocarveout/)."
 		buttonText  = "Read the Story"
 		buttonLink = "https://www.chronicle.com/interactives/harvard-harassment"
 
  # history section
  [params.history]
- 	headline = "Institutional Change?"
+ 	headline = "After Domínguez"
 		description = "If you would like to contact the event organizers, please send us an email at:"
 		# phone = "123-456-6789"
 		email = "makingmetoocount@gmail.com"
@@ -94,7 +94,7 @@ googleAnalytics = ""
 	# Service section
 	[params.speakers]
 		headline1 = "Panel 1: Speaking Out"
-		des1 = "We are honored to be joined by four of the women who spoke out about the Dominguez case, to talk about why they are still in this fight."
+		des1 = "We are honored to be joined by four of the women who spoke out about the Domínguez case, to talk about why they are still in this fight."
 		headline2 = "Panel 2: Strategies for Creating Change"
 		des2 = "How can we turn the #MeToo movement into lasting institutional change?"
 		
