@@ -24,8 +24,7 @@ googleAnalytics = ""
 	description = "Your description"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
-
+	favicon = "icon/favicon.ico"
 
 	# Navigation
 	[params.navigation]
