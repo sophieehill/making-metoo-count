@@ -32,7 +32,7 @@ googleAnalytics = ""
 
 		[params.navigation.links]
 			about     = "About"
-			event = "Event"
+			event     = "Event"
 			services  = "Speakers"
 			resources = "Resources"
 			contact   = "Contact"
