@@ -84,7 +84,7 @@ googleAnalytics = ""
 		# description = "A panel discussion on turning Harvard's #MeToo problem into lasting institutional change."
 		[params.event.button]
 		text = "Facebook event page"
-		link = "facebook.com/events/482521759103893/"
+		link = "https://www.facebook.com/events/482521759103893"
 		[params.event.button2]
 		text = "Directions"
 		link = "https://www.google.com/maps/place/Cgis+South,+1730+Cambridge+St,+Cambridge,+MA+02138,+USA/@42.3750154,-71.1153363,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37744397bb925:0xcf4f795206016674!8m2!3d42.3750154!4d-71.1131476?hl=en"
