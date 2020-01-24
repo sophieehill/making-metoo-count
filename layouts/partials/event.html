@@ -1,25 +1,23 @@
 {{ "<!-- event -->" | safeHTML }}
-<section class="bg-dark" id="event">
+<aside class="bg-dark" id="event">
     <div class="container text-center">
-       {{ with .Site.Params.event.heading }}
-                    <h1 class="section-heading">{{ . }}</h1>
+          {{ with .Site.Params.event.heading }}
+                    <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
-                 {{ if and .Site.Params.event.heading }}
-                    <hr class="light">
-                {{ end }}
-  <br />
-                <br />
-                <img src="img/poster_final_3.png" style="width:80%;">
+                                    <hr class="light">
+
+
+                <img src="img/poster_final_3.png" style="width:60%;">
                 <br />
                          <br />
 
-                         <img src="img/poster_final.png" style="width:80%;">
+                         <img src="img/poster_final.png" style="width:60%;">
                          <br />
                          <br />
 
         <div class="call-to-action">
          
-          <img src="img/poster_final_2.png" style="width:80%;">
+          <img src="img/poster_final_2.png" style="width:60%;">
           <br />
           <br />
 
@@ -32,4 +30,4 @@
             {{ end }}
         </div>
     </div>
-</section>
+</aside>
