@@ -61,8 +61,20 @@ googleAnalytics = ""
 		description = "If you would like to contact the event organizers, please send us an email at:"
 		# phone = "123-456-6789"
 		email = "makingmetoocount@gmail.com"
- 
- 
+		
+		 [[params.history.list]]
+         icon = "img/gallery/1.jpg"
+     [[params.history.list]]
+         icon = "img/gallery/2.jpg"
+     [[params.history.list]]
+         icon = "img/gallery/3.jpg"
+     [[params.history.list]]
+         icon = "img/gallery/4.jpg"
+     [[params.history.list]]
+         icon = "img/gallery/5.jpg"
+     [[params.history.list]]
+         icon = "img/gallery/6.jpeg"    
+         
   # Event section
 	[params.event]
 	heading = "Event"
@@ -120,6 +132,8 @@ googleAnalytics = ""
         date = "1"
         category = "Cat"
         buttonText = "ooo"
+        
+        # gallery
         
    # Contact section
 	[params.resources]

@@ -21,6 +21,10 @@
             {{ partial "history.html" . }}
         {{ end }}
         
+         {{ if .Site.Params.gallery }}
+            {{ partial "gallery.html" . }}
+        {{ end }}
+        
         {{ if .Site.Params.event }}
             {{ partial "event.html" . }}
         {{ end }}
