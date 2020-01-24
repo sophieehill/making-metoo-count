@@ -1,5 +1,5 @@
 {{ "<!-- event -->" | safeHTML }}
-<aside class="bg-dark">
+<section class="bg-dark" id="event">
     <div class="container text-center">
        {{ with .Site.Params.event.heading }}
                     <h1 class="section-heading">{{ . }}</h1>
@@ -32,4 +32,4 @@
             {{ end }}
         </div>
     </div>
-</aside>
+</section>

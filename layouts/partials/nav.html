@@ -21,26 +21,16 @@
                         <a class="page-scroll" href="#about">{{ .Site.Params.navigation.links.about }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Params.event .Site.Params.navigation.links.event }}
+              
                     <li>
                         <a class="page-scroll" href="#event">{{ .Site.Params.navigation.links.event }}</a>
                     </li>
-                {{ end }}
-                {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
+                {{ if and .Site.Params.speakers.list .Site.Params.navigation.links.speakers }}
                     <li>
-                        <a class="page-scroll" href="#services">{{ .Site.Params.navigation.links.services }}</a>
+                        <a class="page-scroll" href="#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
                     </li>
                 {{ end }}
-                {{ if and .Site.Data.projects .Site.Params.navigation.links.portfolio }}
-                    <li>
-                        <a class="page-scroll" href="#portfolio">{{ .Site.Params.navigation.links.portfolio }}</a>
-                    </li>
-                {{ end }}
-                {{ if and .Site.Params.location .Site.Params.navigation.links.location }}
-                <li>
-                    <a class="page-scroll" href="#location">{{ .Site.Params.navigation.links.location }}</a>
-                </li>
-                {{ end }}
+       
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>
                         <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>

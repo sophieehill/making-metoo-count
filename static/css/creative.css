@@ -37,12 +37,12 @@ a:focus {
 }
 
 #about a {
-    color: rgba(52, 52, 52, .7);
+    color: rgba(52, 52, 52, 0.7);
 }
 
 #about a:hover,
 #about a:focus {
-    color: rgb(52, 52, 52);
+    color: #fff;
 }
 
 h1,
