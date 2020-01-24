@@ -34,7 +34,8 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			event = "Event"
-			services  = "Panellists"
+			services  = "Speakers"
+			resources = "Resources"
 			contact   = "Contact"
 
 
@@ -58,49 +59,64 @@ googleAnalytics = ""
   # Event section
 	[params.event]
 	heading = "Event"
-		headline = "Making #MeToo Count:"
-		subline = "Achieving Institutional Change at Harvard"
-		description = "A panel discussion on turning Harvard's #MeToo problem into lasting institutional change."
+	#	headline = "Monday February 3, 2020"
+	#	time = "4:30 -- 6pm"
+	#	subline = "CGIS South S010"
+		# description = "A panel discussion on turning Harvard's #MeToo problem into lasting institutional change."
 		[params.event.button]
-		text = "Link to Facebook event page"
+		text = "Facebook event page"
 		link = "facebook.com/events/482521759103893/"
+		[params.event.button2]
+		text = "Directions"
+		link = "https://www.google.com/maps/place/Cgis+South,+1730+Cambridge+St,+Cambridge,+MA+02138,+USA/@42.3750154,-71.1153363,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37744397bb925:0xcf4f795206016674!8m2!3d42.3750154!4d-71.1131476?hl=en"
 		
 
 
 	# Service section
 	[params.services]
-		headline = "Panellists"
+		headline1 = "Panel 1: Speaking Out"
+		des1 = "We are honored to be joined by four of the women who spoke out about the Dominguez case, to talk about why they are still in this fight."
+		headline2 = "Panel 2: Strategies for Creating Change"
+		des2 = "How can we turn the #MeToo movement into lasting institutional change?"
+		
+		 [[params.services.list]]
+         icon = "img/photos/tk.jpg"
+         title = "Terry Karl"
+
+              
+     [[params.services.list]]
+          icon = "img/photos/charna.jpg"
+          title = "Charna Sherman"
+
+		 [[params.services.list]]
+          icon = "img/photos/nienke.jpg"
+          title = "Nienke Grossman"
 
       [[params.services.list]]
-          icon = "img/photos/tk.jpg"
-          title = "Terry Karl"
-          description = "Our templates are updated regularly so they don't break."
-
-      [[params.services.list]]
-			icon = "img/photos/p15.jpg"
-			title = "Debra Katz"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "img/photos/charna.jpg"
-            title = "Charna Sherman"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "img/photos/suzanna.jpeg"
-            title = "Suzanna Challen"
-
-             [[params.services.list]]
-            icon = "img/photos/nienke.jpg"
-            title = "Nienke Grossman"
-
-             [[params.services.list]]
-            icon = "img/photos/sejal.jpg"
-            title = "Sejal Singh"
+          icon = "img/photos/suzanna.jpeg"
+          title = "Suzanna Challen"
 
 
+     [[params.services.list2]]
+			    icon = "img/photos/p15.jpg"
+			    title = "Debra Katz"
+			    description = "America's top #MeToo lawyer, recently representing Dr. Christine Blasey-Ford. Founding partner o Katz, Marshall & Banks."
 
-
+		 [[params.services.list2]]
+         icon = "img/photos/sejal.jpg"
+         title = "Sejal Singh"
+         description = "Harvard Law student, co-founder of the People's Parity Project, organizer for the Harvard Graduate Student Union (HGSU-UAW)"
+    
+     # Portfolio modals
+	[params.portfolio.modal]
+        client = "Test"
+        date = "1"
+        category = "Cat"
+        buttonText = "ooo"
+        
+   # Contact section
+	[params.resources]
+	#	headline = "Resources"
 
 	# Contact section
 	[params.contact]

@@ -4,15 +4,26 @@
        {{ with .Site.Params.event.heading }}
                     <h1 class="section-heading">{{ . }}</h1>
                 {{ end }}
-                 {{ if and .Site.Params.event.heading .Site.Params.event.headline }}
+                 {{ if and .Site.Params.event.heading }}
                     <hr class="light">
                 {{ end }}
+  <br />
+                <br />
+                <img src="img/poster_final_3.png" style="width:80%;">
+                <br />
+                         <br />
+
+                         <img src="img/poster_final.png" style="width:80%;">
+                         <br />
+                         <br />
+
         <div class="call-to-action">
-            {{ with .Site.Params.event.headline }}<h2>{{ . }}</h2>{{ end }}
-            {{ with .Site.Params.event.subline }}<h4>{{ . }}</h4>{{ end }}
-             {{ with .Site.Params.event.description }}
-                    <p class="text">{{ . | markdownify }}</p>
-                {{ end }}
+         
+          <img src="img/poster_final_2.png" style="width:80%;">
+          <br />
+          <br />
+
+
             {{ if and .Site.Params.event.button.link .Site.Params.event.button.text }}
                 <a href="{{ .Site.Params.event.button.link }}" class="btn btn-default btn-x">{{ .Site.Params.event.button.text }}</a>
             {{ end }}
