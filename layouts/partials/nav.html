@@ -30,6 +30,12 @@
                         <a class="page-scroll" href="#speakers">{{ .Site.Params.navigation.links.speakers }}</a>
                     </li>
                 {{ end }}
+                
+                {{ if and .Site.Params.resources .Site.Params.navigation.links.resources }}
+                    <li>
+                        <a class="page-scroll" href="#resources">{{ .Site.Params.navigation.links.resources }}</a>
+                    </li>
+                {{ end }}
        
                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
                     <li>

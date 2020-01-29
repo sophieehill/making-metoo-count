@@ -137,6 +137,7 @@ googleAnalytics = ""
         
    # Contact section
 	[params.resources]
+	headline = "Resources"
 	#	headline = "Resources"
 
 	# Contact section
