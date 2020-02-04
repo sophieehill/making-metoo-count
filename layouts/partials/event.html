@@ -1,33 +1,28 @@
 {{ "<!-- event -->" | safeHTML }}
 <aside class="bg-dark" id="event">
-    <div class="container text-center">
+  
+  <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
           {{ with .Site.Params.event.heading }}
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                                     <hr class="light">
 
-
-                <img src="img/poster_final_3.png" style="width:60%;">
-                <br />
-                         <br />
-
-                         <img src="img/poster_final.png" style="width:60%;">
-                         <br />
-                         <br />
-
-        <div class="call-to-action">
-         
-          <img src="img/poster_final_2.png" style="width:60%;">
-          <br />
-          <br />
+<p class="text-justify">
+On February 3rd, 2020, Nienke Grossman, Terry Karl, Suzanna Challen, and Charna Sherman — four women who have spoken out about sexual harassment at Harvard — returned to campus to talk about why they are still in this fight, joined by America's top #MeToo lawyer, Debra Katz, and student activist and union organizer, Sejal Singh.
 
 
-            {{ if and .Site.Params.event.button.link .Site.Params.event.button.text }}
-                <a href="{{ .Site.Params.event.button.link }}" class="btn btn-default btn-x">{{ .Site.Params.event.button.text }}</a>
-            {{ end }}
-            {{ if and .Site.Params.event.button2.link .Site.Params.event.button2.text }}
-                <a href="{{ .Site.Params.event.button2.link }}" class="btn btn-default btn-x">{{ .Site.Params.event.button2.text }}</a>
-            {{ end }}
+<br>
+<br>
+<br>
+
+Watch the event here:
+</p>
+
+           
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ht40vgVw1Gc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </aside>

@@ -43,7 +43,7 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Making #MeToo Count"
 		subtitle   = " "
-		buttonText = "Find out more"
+		buttonText = "Watch the event"
 
 
 	# About section
